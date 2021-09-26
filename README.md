@@ -1,5 +1,5 @@
 
-The pip distribution package pycoq provides two python packages:
+The pip distribution package `pycoq` provides two python packages:
 
 - serlib
 
