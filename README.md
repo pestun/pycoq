@@ -56,7 +56,7 @@ From your python environment with `pycoq` installed run
 pip uninstall pycoq
 ```
 By default, pycoq uses directory `$HOME/.local/share/pycoq` to store temporary files such as the opam repository, project files and the logs.
-To remove project directory of pycoq:
+To remove the project directory of pycoq:
 ```
 rm -fr $HOME/.local/share/pycoq 
 ```
