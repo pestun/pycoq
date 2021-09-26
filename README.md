@@ -47,16 +47,24 @@ From your python environment with `pycoq` installed run
 pytest --pyargs pycoq
 ```
 
+### Config pycoq
+The location of the pycoq projects directory, the log file and the logging level can be defined in the configuration file `$HOME/.pycoq`. 
+
 ### Uninstall pycoq 
 From your python environment with `pycoq` installed run
 ```
 pip uninstall pycoq
 ```
 By default, pycoq uses directory `$HOME/.local/share/pycoq` to store temporary files such as the opam repository, project files and the logs.
-To remove completely run
+To remove project directory of pycoq:
 ```
-rm -fr $HOME/.local/share/pycoq
+rm -fr $HOME/.local/share/pycoq 
 ```
+To remove the pycoq config file:
+```
+rm -fr $HOME/.pycoq
+```
+
 
 ## Build pycoq in Docker
 Install docker, git clone the source repository and from the directory containing Dockerfile run
